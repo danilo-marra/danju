@@ -33,7 +33,7 @@ textarea {
     background-color: #2d2d30;
     border: 0;
     font-size: 11px !important;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     opacity:0.9;
 }
 
@@ -44,12 +44,8 @@ textarea {
     
 }
 
-.navbar li a {
-    margin-top: 3px;
-}
-
 .navbar .navbar-brand {
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 /* On hover, the links will turn white */
@@ -66,11 +62,6 @@ textarea {
 /* Remove border color from the collapsible button */
 .navbar-default .navbar-toggle {
     border-color: transparent;
-}
-
-a.navbar-brand {
-   /*bottom: 5px;
-    position: absolute;*/
 }
 
 a.navbar-brand small {

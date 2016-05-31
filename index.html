@@ -13,7 +13,7 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.css" rel="stylesheet">
 </head>
     
-<body id="minhaPagina" data-spy="scroll" data-target=".navbar" data-offset="0">
+<body id="minhaPagina" data-spy="scroll" data-target=".navbar" data-offset="50">
     
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -162,7 +162,7 @@ Asa Norte, Brasília - DF, 70850-090"><strong> Paróquia do Verbo Divino</strong
     </div>
     
     <!-- Frases -->
-    <div class="text-center well well-lg frases"><p class="frasesTexto slideanim"><em>"Não namore para casar. Case para namorar para sempre."</em></p></div>
+    <div class="col-sm-12 text-center well well-lg frases"><p class="frasesTexto slideanim"><em>"Não namore para casar. Case para namorar para sempre."</em></p></div>
     
     <!-- Lista de Presentes -->
     <div id="presentes" class="container-fluid text-center">
@@ -404,7 +404,7 @@ Asa Norte, Brasília - DF, 70850-090"><strong> Paróquia do Verbo Divino</strong
     $(document).ready(function(){
         // Initialize Tooltip
         $('[data-toggle="tooltip"]').tooltip(); 
-    })
+    });
     </script>
     
     <!-- Script Smooth Scrolling -->
@@ -413,7 +413,7 @@ Asa Norte, Brasília - DF, 70850-090"><strong> Paróquia do Verbo Divino</strong
           // Add smooth scrolling to all links in navbar + footer link
           $(".navbar a, footer a[href='#minhaPagina']").on('click', function(event) {
 
-          // Make sure this.hash has a value before overriding default behavior
+          // Make sure this.hash has a value befo   re overriding default behavior
           if (this.hash !== "") {
 
             // Prevent default anchor click behavior
