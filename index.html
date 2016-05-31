@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Tema feito por Danilo Marra Rabelo danilomarra.com.br -->
+    <title>Casamento Dan&amp;Juju 25/11/2017</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/estilo.css">
+    <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.css" rel="stylesheet">
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+    
+<body id="minhaPagina" data-spy="scroll" data-target=".navbar" data-offset="0">
+    
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header" role="navigation">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand text-center" href="#">Dan&amp;Juju<br><small>25.11.2017</small></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavBar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#endereco">Endereço</a></li>
+                    <li><a href="#presentes">Lista de presentes</a></li>
+                    <li><a href="#noivos">Os noivos</a></li>
+                    <li><a href="#lugar">O lugar</a></li>
+                    <li><a href="#galeria">Galeria de fotos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
+        <!-- Selecionadores -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        
+        <!-- Container para os Slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="assets/imagens/foto01.jpg" alt="Foto 1" title="Foto Casal" width="1200" height="700">
+            </div>
+            <div class="item">
+                <img src="assets/imagens/foto03.jpg" alt="Foto 3" title="Foto Casal 3" width="1200" height="700">
+            </div>
+            <div class="item">
+                <img src="assets/imagens/foto04.jpg" alt="Foto 4" title="Foto Casal 4" width="1200" height="700">
+            </div>        
+        </div>
+        
+        <!-- Controles Direita e Esquerda -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Voltar</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Avançar</span>
+        </a>
+    </div>
+    
+    <!-- Contador Regressivo -->
+    <div class="well well-lg">
+        <div id="wrapper" class="text-center" >
+                <div class="lead" id="relogio"></div>
+            <div class="coracao">
+                <span class="savethedate">25</span>
+            </div>
+            <div class="coracao">
+                <span class="savethedate">11</span>
+            </div>
+            <div class="coracao">
+                <span class="savethedate">2017</span>
+            </div>
+        </div>
+    </div>  
+    
+    <div class="container-fluid" id="endereco">
+        <!-- Localização -->
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="col-sm-8">
+                     <h1><span class="glyphicon glyphicon-globe"></span> Localização</h1>
+                    <div id="googleMap"></div>  
+                </div>
+                <div class="col-sm-4">
+                    <h1><span class="glyphicon glyphicon-map-marker"></span> Endereço</h1>
+                    <address>
+                        <abbr title="Sgan 609, Módulo C, L2 Norte
+Asa Norte, Brasília - DF, 70850-090"><strong> Paróquia do Verbo Divino</strong></abbr><br>
+                        Sgan 609, Módulo C, L2 Norte<br>
+                        Asa Norte, Brasília - DF, 70850-090<br>
+                        <abbr title="Telefone"><span class="glyphicon glyphicon-earphone"></span></abbr> (61) 3349-5101<br>
+                        <abbr title="Hora do Casamento"><span class="glyphicon glyphicon-time"></span></abbr> 20h até as 0h<br>
+                        <abbr title="data"><span class="glyphicon glyphicon-calendar"></span></abbr> 25/11/2016 
+                    </address>
+                </div>
+            </div>
+        <!-- RSVP -->
+            <div id="rsvp" class="col-sm-4">
+                <h1><span class="glyphicon glyphicon-check"></span> Confirme a sua presença</h1>
+                <p>Será um imenso prazer recebê-los em nossa festa. Confirme a sua presença clicando no botão logo abaixo.</p>
+                <p><span class="glyphicon glyphicon-info-sign"></span> Alguns avisos importantes</p>
+                <ul>
+                    <li>O horário previsto para começar a cerimônia será as 20h em ponto. Sejam pontuais</li>
+                    <li>A festa irá ocorrer após a cerimônia na igreja e será no salão de festas da própria igreja</li>
+                    <li>O local disponibilizará de estacionamento coberto para todos os convidados</li>
+                    <li>Menores de 6 anos não precisam estar na lista</li>
+                    <li>Tragam muito sorriso e alegria para celebrar o nosso matrimônio.</li>
+                </ul>
+                <div class="text-center">
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#modalRsvp">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal RSVP -->
+    <div id="modalRsvp" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+        <!-- Conteudo do Modal -->
+            <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3>Confirme a sua presença</h3>
+                </div>
+                <div class="modal-body">
+                  <form>
+                      <div class="form-group">
+                          <label for="nome">Nome: </label>
+                          <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo">                          
+                      </div>
+                      <div class="form-group">
+                          <label for="qtdAcomp">Quantos acompanhantes?</label>
+                          <input type="number" class="form-control" id="qtdAcomp" placeholder="Selecione a quantidade">
+                      </div>
+                      <div class="form-group">
+                          <label for="nomeAcomp">Digite o nome completo do(s) acompanhante(s):</label>
+                          <span class="help-block">Menores de 6 anos não precisam estar na lista</span>
+                          <textarea class="form-control" rows="5" id="nomeAcomp"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-block">Confirmar convidados <span class="glyphicon glyphicon-ok"></span>
+                      </button>
+                  </form>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    
+    <!-- Frases -->
+    <div class="text-center well well-lg frases"><p class="frasesTexto slideanim"><em>"Não namore para casar. Case para namorar para sempre."</em></p></div>
+    
+    <!-- Lista de Presentes -->
+    <div id="presentes" class="container-fluid text-center">
+        <h1>Lista de Presentes</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla sapien nisl, non sagittis sapien varius quis. Praesent rhoncus et velit in mollis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam lorem nibh, viverra eu bibendum a, laoreet ut ante. Duis ultricies neque quis risus aliquet, quis sagittis ante lacinia. Donec lacinia ipsum magna, id scelerisque lorem varius non. Praesent maximus ipsum neque, a pellentesque felis hendrerit eu. Vestibulum accumsan ante sit amet sapien commodo, a gravida orci. </p>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <h4>Wall Mart</h4>
+                <a href="#">
+                    <img src="assets/imagens/wallmart2.png" class="img-rounded img-thumbnail" title="Wall Mart" alt="acessar lista Wall Mart" width="200" height="200">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <h4>Camicado</h4>
+                <a href="#">
+                    <img src="assets/imagens/camicado2.png" class="img-rounded img-thumbnail" title="Camicado" alt="acessar lista Camicado" width="200" height="200">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <h4>Zelo</h4>  
+                <a href="#">
+                    <img src="assets/imagens/zelo.png" class="img-rounded img-thumbnail" title="Zelo" alt="acessar lista Zelo" width="200" height="200">
+                </a>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <p>Caso seja do seu interesse, você também pode optar por uma doação de qualquer valor clicando no botão abaixo e escolhendo uma das três agências bacarias para realizar o  depósito (banco do brasil, caixa ou brb)</p>
+                <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#modalDeposito">Faça a sua doação</button>
+            </div>
+        </div>
+        <br>
+    </div>
+    
+    <!-- Modal Doação -->
+    <div id="modalDeposito" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+        <!-- Conteudo do Modal -->
+            <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3>Escolha uma das três opções abaixo:</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-4 text-center">
+                            <a href="#infoConta1" data-toggle="collapse"><strong>Banco do Brasil</strong>
+                                <img src="assets/imagens/bb.png" class="img-thumbnail img-responsive" alt="logo Banco do Brasil" title="Banco do Brasil" width="150" height="150">
+                            </a>
+                            <div id="infoConta1" class="collapse text-left">
+                                <br>
+                                <p><strong>Agência:</strong><br> xxxx-x</p>
+                                <p><strong>Conta Corrente: </strong><br>xxxxx-xx</p>
+                                <p><strong>Favorecido: </strong><br>Danilo Marra Rabelo</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 text-center">
+                            <a href="#infoConta2" data-toggle="collapse"><strong>Caixa Econômica</strong>
+                                <img src="assets/imagens/caixa.png" class="img-thumbnail img-responsive" alt="logo Caixa Econômica Federal" title="Caixa Econômica Federal" width="150" height="150">
+                            </a>
+                            <div id="infoConta2" class="collapse text-left">
+                                <br>
+                                 <p><strong>Agência:</strong><br> xxxx-x</p>
+                                <p><strong>Conta Corrente: </strong><br>xxxxx-xx</p>
+                                <p><strong>Favorecido: </strong><br>Danilo Marra Rabelo</p>
+                            </div>
+                        </div>                        
+                        <div class="col-xs-4 text-center">
+                            <a href="#infoConta3" data-toggle="collapse"><strong>BRB - Banco de Brasília</strong>
+                                <img src="assets/imagens/brb.png" class="img-thumbnail img-responsive" alt="logo BRB - Banco de Brasília" title="BRB - Banco de Brasília" width="150" height="150">
+                            </a>
+                            <div id="infoConta3" class="collapse text-left">
+                                <br>
+                          <p><strong>Agência:</strong><br> xxxx-x</p>
+                                <p><strong>Conta Corrente: </strong><br>xxxxx-xx</p>
+                                <p><strong>Favorecido: </strong><br>Danilo Marra Rabelo</p>
+                            </div>
+                        </div>
+                    </div>     
+                </div>
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                    <span class="glyphicon glyphicon-remove"></span> Cancelar
+                  </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Os Noivos -->
+    <div id="noivos" class="container-fluid">
+        <h1 class="text-center">Os noivos</h1>
+        <div class="row">
+            <div class="col-sm-5 text-center slideanim">
+                <img src="assets/imagens/fotoperfilnoivo.jpg" class="img-circle" width="255" height="255" alt="Imagem Noivo" title="Danilo Marra Rabelo">
+                <p><strong>Nome: </strong><br> Danilo Marra Rabelo</p>
+                <p><strong>Profissão: </strong><br> Web Designer</p>
+                <p><strong>O que gosta de fazer nas horas vagas?</strong><br> Jogar Video Game</p>
+                <p><strong>Qual o seu game favorito</strong><br> Final Fantasy</p>
+                <p><strong>O que mais lhe preocupa?</strong><br> Ficar careca</p>
+                <p><strong>O que você acha que ela vê em você?</strong><br> Minha careca</p>
+                <p><strong>O que ela realmente vê?</strong><br> A sua serenidade</p>
+            </div>
+            <div class="col-sm-2 text-center">
+                <h4 class="text-center"><strong>Como eles se conheceram?</strong></h4>
+                <p>Ut dapibus dolor non mauris scelerisque, ac gravida nulla dapibus. Mauris vitae odio ante. Pellentesque finibus tortor ut ipsum dapibus, eget ultrices neque blandit. Integer quis tincidunt massa, ut dignissim dui. Cras blandit nunc posuere lobortis sodales. Sed efficitur lorem nunc...</p>
+            </div>
+            <div class="col-sm-5 text-center slideanim">
+                <img src="assets/imagens/fotoperfilnoiva.jpg" class="img-circle" width="255" height="255" alt="Imagem Noiva" title="Francisca Juliana da Silva Barbosa">
+                <p><strong>Nome: </strong><br> Francisca Juliana da Silva Barbosa</p>
+                <p><strong>Profissão: </strong><br> Psicóloga</p>
+                <p><strong>O que gosta de fazer nas horas vagas?</strong><br> Fazer contas</p>
+                <p><strong>Quando foi o dia do primeiro beijo de vocês?</strong><br> Dia 29/03/2014</p>
+                <p><strong>O que mais lhe preocupa?</strong><br> O casamento</p>
+                <p><strong>O que você acha que ele vê em você?</strong><br> Minha sinceridade</p>
+                <p><strong>O que ela realmente vê?</strong><br> A sua ansiedade</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- O lugar -->
+    <div id="lugar" class="container-fluid">
+        <h1 class="text-center">O Lugar</h1>
+        <!-- Cerimônia -->
+        <div class="row">
+            <h2 class="cerimonia">Cerimônia</h2>
+            <div class="col-sm-4">
+                <img src="assets/imagens/verboDivino.jpg" class="img-thumbnail img-responsive slideanim" alt="Imagem Paróquia Verbo Divino" title="Paróquia Verbo Divino" width="400" height="400">
+            </div>
+            <div class="col-sm-8">
+               <p>Curabitur ut tellus eu tortor porta bibendum vel sit amet sapien. Ut eget dapibus nunc. Curabitur ac velit eget elit egestas malesuada commodo quis purus. Praesent vel est hendrerit, vulputate erat ut, convallis dui. Integer arcu nunc, imperdiet ut nulla vehicula, vulputate dictum nisi. Ut id mauris velit. Vestibulum finibus odio nisi, ac aliquet arcu placerat a. Praesent rhoncus, turpis ac convallis pulvinar, ex nulla aliquam risus, vitae convallis est nisl nec leo. Sed vel dui bibendum, aliquet tortor in, condimentum velit. Curabitur convallis eros maximus feugiat bibendum.</p>
+                <p>Maecenas feugiat, odio ut dignissim finibus, mi nisl feugiat sem, et gravida diam elit a mi. Quisque mi arcu, varius et varius quis, aliquam eu felis. Nunc id augue in velit mollis ultricies non ut ipsum. Sed pellentesque arcu vitae suscipit cursus. Nullam pulvinar vestibulum venenatis. Ut iaculis urna augue, ac pretium neque sodales vel. Mauris at finibus orci. Donec volutpat et leo in ultrices. Curabitur blandit sit amet tellus sed aliquet. Vivamus felis massa, dictum eget rutrum quis, lobortis sed turpis. Suspendisse potenti. Aenean vel odio ac felis posuere sagittis iaculis in lacus.</p>
+            </div>
+        </div>
+        <!-- Festa -->
+        <div class="row">
+        <h2 class="festa">O Salão de Festas</h2>
+        <div class="col-sm-8">
+            <p>Maecenas feugiat, odio ut dignissim finibus, mi nisl feugiat sem, et gravida diam elit a mi. Quisque mi arcu, varius et varius quis, aliquam eu felis. Nunc id augue in velit mollis ultricies non ut ipsum. Sed pellentesque arcu vitae suscipit cursus. Nullam pulvinar vestibulum venenatis. Ut iaculis urna augue, ac pretium neque sodales vel. Mauris at finibus orci. Donec volutpat et leo in ultrices. Curabitur blandit sit amet tellus sed aliquet. Vivamus felis massa, dictum eget rutrum quis, lobortis sed turpis. Suspendisse potenti. Aenean vel odio ac felis posuere sagittis iaculis in lacus.</p>
+            <p>Curabitur ut tellus eu tortor porta bibendum vel sit amet sapien. Ut eget dapibus nunc. Curabitur ac velit eget elit egestas malesuada commodo quis purus. Praesent vel est hendrerit, vulputate erat ut, convallis dui. Integer arcu nunc, imperdiet ut nulla vehicula, vulputate dictum nisi. Ut id mauris velit. Vestibulum finibus odio nisi, ac aliquet arcu placerat a. Praesent rhoncus, turpis ac convallis pulvinar, ex nulla aliquam risus, vitae convallis est nisl nec leo. Sed vel dui bibendum, aliquet tortor in, condimentum velit. Curabitur convallis eros maximus feugiat bibendum.</p>               
+        </div>
+            <div class="col-sm-4">
+                <img src="assets/imagens/verboDivinoSalao.jpg" alt="Imagem Salão de festas da Paróquia Verbo Divino" class="img-thumbnail img-responsive slideanim" title="Salão de Festas" width="400" height="400">
+            </div>
+        </div>
+    </div>
+    
+    <!-- Frases -->
+    <div class="text-center well well-lg frases"><p class="frasesTexto slideanim"><em>"A vida é um presente de Deus e o casamento é o começo de uma nova vida."</em></p></div>
+    
+    <!-- Galeria de Fotos -->
+    <div id="galeria" class="container-fluid text-center">
+        <div class="row">
+            <h1>Galeria de Fotos</h1>
+            <div class="col-md-offset-2 col-md-8">
+                <div class="row">
+                    <a href="http://41.media.tumblr.com/f37ac708134914c471073e4c0b47328d/tumblr_mrn3dc10Wa1r1thfzo8_1280.jpg" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4">
+                        <img src="//41.media.tumblr.com/f37ac708134914c471073e4c0b47328d/tumblr_mrn3dc10Wa1r1thfzo8_1280.jpg" class="img-responsive img-thumbnail" alt="Imagem Casal">
+                    </a>
+                    <a href="http://41.media.tumblr.com/838b44224e39c30cd43490deb11b919d/tumblr_mrn3dc10Wa1r1thfzo1_1280.jpg" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4">
+                        <img src="//41.media.tumblr.com/838b44224e39c30cd43490deb11b919d/tumblr_mrn3dc10Wa1r1thfzo1_1280.jpg" class="img-responsive img-thumbnail" alt="Imagem Casal">
+                    </a>
+                    <a href="http://41.media.tumblr.com/e06a3513b0b36843f54bee99aeac689a/tumblr_mrn3dc10Wa1r1thfzo2_1280.jpg" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4">
+                        <img src="//41.media.tumblr.com/e06a3513b0b36843f54bee99aeac689a/tumblr_mrn3dc10Wa1r1thfzo2_1280.jpg" class="img-responsive img-thumbnail" alt="Imagem Casal">
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="http://41.media.tumblr.com/f37ac708134914c471073e4c0b47328d/tumblr_mrn3dc10Wa1r1thfzo8_1280.jpg" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4">
+                        <img src="//41.media.tumblr.com/f37ac708134914c471073e4c0b47328d/tumblr_mrn3dc10Wa1r1thfzo8_1280.jpg" class="img-responsive img-thumbnail" alt="Imagem Casal">
+                    </a>
+                    <a href="http://40.media.tumblr.com/f9fcf4cae3468d96a324cae301c00998/tumblr_mrn3dc10Wa1r1thfzo3_1280.jpg" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4">
+                        <img src="//40.media.tumblr.com/f9fcf4cae3468d96a324cae301c00998/tumblr_mrn3dc10Wa1r1thfzo3_1280.jpg" class="img-responsive img-thumbnail" alt="Imagem Casal">
+                    </a>
+                    <a href="http://36.media.tumblr.com/de356cd6570d7c26e73979467f296f67/tumblr_mrn3dc10Wa1r1thfzo6_1280.jpg" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4">
+                        <img src="//36.media.tumblr.com/de356cd6570d7c26e73979467f296f67/tumblr_mrn3dc10Wa1r1thfzo6_1280.jpg" class="img-responsive img-thumbnail" alt="Imagem Casal">
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="http://41.media.tumblr.com/f37ac708134914c471073e4c0b47328d/tumblr_mrn3dc10Wa1r1thfzo8_1280.jpg" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4">
+                        <img src="//41.media.tumblr.com/f37ac708134914c471073e4c0b47328d/tumblr_mrn3dc10Wa1r1thfzo8_1280.jpg" class="img-responsive img-thumbnail" alt="Imagem Casal">
+                    </a>
+                    <a href="http://41.media.tumblr.com/838b44224e39c30cd43490deb11b919d/tumblr_mrn3dc10Wa1r1thfzo1_1280.jpg" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4">
+                        <img src="//41.media.tumblr.com/838b44224e39c30cd43490deb11b919d/tumblr_mrn3dc10Wa1r1thfzo1_1280.jpg" class="img-responsive img-thumbnail" alt="Imagem Casal">
+                    </a>
+                    <a href="http://41.media.tumblr.com/e06a3513b0b36843f54bee99aeac689a/tumblr_mrn3dc10Wa1r1thfzo2_1280.jpg" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4">
+                        <img src="//41.media.tumblr.com/e06a3513b0b36843f54bee99aeac689a/tumblr_mrn3dc10Wa1r1thfzo2_1280.jpg" class="img-responsive img-thumbnail" alt="Imagem Casal">
+                    </a>
+                </div>                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Contato -->
+    <div id="contato" class="container">
+        <div class="row">
+            <h1 class="text-center">Ficou com alguma dúvida?</h1>
+            <form class="form-horizontal">
+                <div class="form-group form-group-lg">
+                  <label class="control-label col-sm-1" for="nomeContato">Nome:</label>
+                  <div class="col-sm-10"> 
+                    <input type="text" class="form-control" id="nomeContato" placeholder="Digite seu nome">
+                  </div>
+                </div>
+                <div class="form-group form-group-lg">
+                  <label class="control-label col-sm-1" for="email">Email:</label>
+                  <div class="col-sm-10"> 
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                  </div>
+                </div>
+                <div class="form-group form-group-lg">
+                    <label class="control-label col-sm-1" for="mensagem">Mensagem:</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" rows="5" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                    </div>
+                </div>
+              <div class="form-group"> 
+                  <div class="col-sm-offset-1 col-sm-10">
+                      <button type="submit" class="btn btn-default btn-lg btn-block">Enviar</button>
+                  </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Footer -->    
+    <footer class="text-center">
+        <a class="up-arrow" href="#minhaPagina" data-toggle="tooltip" title="Ir ao topo"><span class="glyphicon glyphicon-chevron-up"></span></a><br><br>
+        <p>Desenvolvido em bootstrap por <a href="http://danilomarra.com.br" data-toggle="tooltip" title="Acessar danilomarra.com.br">danilomarra.com.br</a></p> 
+    </footer>
+
+    <!-- Script Tooltip footer -->
+    <script>
+    $(document).ready(function(){
+        // Initialize Tooltip
+        $('[data-toggle="tooltip"]').tooltip(); 
+    })
+    </script>
+    
+    <!-- Script Smooth Scrolling -->
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links in navbar + footer link
+          $(".navbar a, footer a[href='#minhaPagina']").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 900, function(){
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if 
+          });
+        })
+    </script>
+           
+    <!-- Script Galeria de Imagens -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function ($) {
+        // delegate calls to data-toggle="lightbox"
+        $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function(event) {
+                event.preventDefault();
+                return $(this).ekkoLightbox({
+                    onShown: function() {
+                        if (window.console) {
+                            return console.log('onShown event fired');
+                        }
+                    },
+                    onContentLoaded: function() {
+                        if (window.console) {
+                            return console.log('onContentLoaded event fired');
+                        }
+                    },
+                    onNavigate: function(direction, itemIndex) {
+                        if (window.console) {
+                            return console.log('Navigating '+direction+'. Current item: '+itemIndex);
+                        }
+                    }
+                });
+            });
+
+            //Programatically call
+            $('#open-image').click(function (e) {
+                e.preventDefault();
+                $(this).ekkoLightbox();
+            });
+            $('#open-youtube').click(function (e) {
+                e.preventDefault();
+                $(this).ekkoLightbox();
+            });
+
+            $(document).delegate('*[data-gallery="navigateTo"]', 'click', function(event) {
+                event.preventDefault();
+                return $(this).ekkoLightbox({
+                    onShown: function() {
+                        var lb = this;
+                        $(lb.modal_content).on('click', '.modal-footer a#jumpit', function(e) {
+                            e.preventDefault();
+                            lb.navigateTo(2);
+                        });
+                        $(lb.modal_content).on('click', '.modal-footer a#closeit', function(e) {
+                            e.preventDefault();
+                            lb.close();
+                        });
+                    }
+                });
+            });
+
+        });
+    </script>
+    <!--  Script Google Maps -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    
+    <!--  Contador até a Data do Casamento -->    
+    <script type="text/javascript">
+        $('#wrapper').countdown('2017/11/25', function(event) {
+          $('#relogio').html(event.strftime('Faltam %m meses, %D dias, %H hora(s), %M minuto(s) e %S segundo(s)...'));
+         });
+        
+    //Google Maps
+    var myCenter = new google.maps.LatLng(-15.7580393, -47.8776267);
+
+    function initialize() {
+    var mapProp = {
+    center:myCenter,
+    zoom:13,
+    scrollwheel:false,
+    draggable:false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
+
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+    var marker = new google.maps.Marker({
+    position:myCenter,
+    });
+
+    marker.setMap(map);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    
+    <!-- Script slideanim Animação -->
+    <script>
+        $(window).scroll(function() {
+            $(".slideanim").each(function(){
+                var pos = $(this).offset().top;
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 600) {
+                    $(this).addClass("slide");
+                }
+            });
+        });
+    </script>
+    
+</body>
+</html>
