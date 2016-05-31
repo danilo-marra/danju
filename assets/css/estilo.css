@@ -85,7 +85,7 @@ a.navbar-brand small {
     text-shadow: none;
     font-weight: 300;
     text-transform: capitalize;*/
-    background: url(/assets/imagens/time_hrt.png) no-repeat center center;
+    background: url(http://gadernal.github.io/danju/assets/imagens/time_hrt.png) no-repeat center center;
     width: 160px;
     height: 105px;
     display:inline-flex;
