@@ -35,13 +35,21 @@ textarea {
     font-size: 11px !important;
     letter-spacing: 4px;
     opacity:0.9;
-    padding-bottom: 10px;
 }
 
 
 /* Add a gray color to all navbar links */
 .navbar li a, .navbar .navbar-brand { 
     color: #d5d5d5 !important;
+    
+}
+
+.navbar li a {
+    margin-top: 3px;
+}
+
+.navbar .navbar-brand {
+    padding-top: 10px;
 }
 
 /* On hover, the links will turn white */
@@ -174,9 +182,29 @@ address {
    
 }
 
+#endereco, #presentes, #noivos, #galeria {
+    margin-top: 100px;
+}
+
+
+/* Contato */
+#contato {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#contato h1 {
+    margin-bottom: 30px;
+}
+
+/* Lugar */
+#lugar {
+    margin-top: 100px;
+}
+
 /* Frases */ 
 .frases {
-    margin: 50px 0;
+    margin-top: 150px;
     font-weight: 100;
     letter-spacing: 2px;
 }
