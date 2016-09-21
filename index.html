@@ -427,9 +427,24 @@
       }
 </script>
 
+<script>
+      function initMap2() {
+        var mapDiv = document.getElementById('googleMap3');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: -15.8168896, lng: -47.8626789},
+            zoom: 16
+        });
+      }
+</script>
+
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7DytgMVk7iMDwnJsHGc9hYv1t0bIl0cQ&callback=initMap">
 </script>
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwSP-bKcJ0ZOuc1n0TgqlAtlTi7R41iwg&callback=initMap2">
+</script>
+
 
 
 
