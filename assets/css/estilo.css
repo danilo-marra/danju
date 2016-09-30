@@ -1,4 +1,7 @@
-body{font:400 15px/1.8 Lato, sans-serif;color:#777;}
+body{
+    font:400 16px/1.8 Lato, sans-serif;color:#777;
+    background: #ddd url(../imagens/bg.jpg) repeat top left;
+}
 h1{padding: 15px 0; font-size: 28px;}
 .h2, h2 {
     font-size: 22px;
@@ -6,16 +9,16 @@ h1{padding: 15px 0; font-size: 28px;}
 h3, h4{color:#111;}
 .form-control{border-radius:0;}
 textarea{resize:none;}
-.navbar, .well{font-family:Montserrat, sans-serif;}
-.navbar{margin-bottom:0;background-color:#2d2d30;border:0;font-size:1em;letter-spacing:2px;opacity:0.9;}
-.navbar li a, .navbar .navbar-brand{color:#d5d5d5 !important;}
-.navbar .navbar-brand{padding-top:5px;}
+.navbar {font-family:Open Sans Condensed, sans-serif;}
+.navbar{margin-bottom:0;background-color:#ddd; border:0;font-size:1.4em;letter-spacing:2px;opacity:0.9;}
+.navbar li a, .navbar .navbar-brand{color:#2d2d30 !important;}
+.navbar .navbar-brand{padding-top:5px; font-size: 1.3em}
 .navbar-nav li a:hover{color:#fff !important;}
 .navbar-nav li.active a{color:#fff !important;background-color:#29292c !important;}
 .navbar-default .navbar-toggle{border-color:transparent;}
-a.navbar-brand small{font-size:12px;letter-spacing:5px;margin-bottom:20px;}
-#wrapper{display:block;}
-.coracao{background:url(http://gadernal.github.io/danju/assets/imagens/time_hrt.png) no-repeat center center;width:160px;height:105px;display:inline-flex;font-size:20px;margin:0 auto;}
+a.navbar-brand small{ font-size: 0.6em;}
+#wrapper{display:block; margin-top: 20px;}
+.coracao{background:url(../imagens/time_hrt.png) no-repeat center center;width:160px;height:105px;display:inline-flex;font-size:20px;margin:0 auto;}
 .savethedate{font-size:39px;color:#fff;width:160px;text-align:center;padding-top:8px;}
 #lugar h2{margin-left:15px;}
 #googleMap2, #googleMap3{width:100%;height:400px;}
@@ -30,8 +33,8 @@ address{line-height:2.1em;}
 .carousel-inner img{-webkit-filter:grayscale(90%);filter:grayscale(90%);width:100%;margin:auto;}
 .glyphicon-info-sign{font-size:18px;}
 #contato h1{margin-bottom:30px;}
-.frases{font-weight:100;letter-spacing:2px; margin: 50px 0;}
-.frasesTexto{font-family:'Great Vibes', cursive;font-size:3.2em;}
+.frases{font-weight:100;letter-spacing:2px; margin: 35px 0;}
+.frasesTexto{font-family:'Great Vibes', cursive;font-size:4em;}
 #noivos img {margin-bottom: 20px;}
 footer{background-color:#2d2d30;color:#f5f5f5;padding:20px 0; margin-top: 150px;}
 footer a{color:#f5f5f5;text-decoration:underline;}
@@ -126,3 +129,46 @@ h5 {
 #presenca {margin: 0 15px;}
 
 .thumbnail-panel {margin-top: 20px;}
+
+.holder {
+    margin:15px 0;
+}
+.holder a {
+    font-size:12px;
+    cursor:pointer;
+    margin:0 5px;
+    color:#333;
+}
+.holder a:hover {
+    background-color:#222;
+    color:#fff;
+}
+.holder a.jp-previous {
+    margin-right:15px;
+}
+.holder a.jp-next {
+    margin-left:15px;
+}
+.holder a.jp-current,a.jp-current:hover {
+    color:#FF4242;
+    font-weight:bold;
+}
+.holder a.jp-disabled,a.jp-disabled:hover {
+    color:#bbb;
+}
+.holder a.jp-current,a.jp-current:hover,.holder a.jp-disabled,a.jp-disabled:hover {
+    cursor:default;
+    background:none;
+}
+.holder span {
+    margin: 0 5px;
+}
+
+.audioControl {
+    /*margin:40px 0;*/
+    position: fixed;
+    top:50px;
+    z-index: 1;
+}
+
+
