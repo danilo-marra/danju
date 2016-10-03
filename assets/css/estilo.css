@@ -167,8 +167,9 @@ h5 {
 .audioControl {
     /*margin:40px 0;*/
     position: fixed;
-    top:50px;
+    bottom:-10px;
     z-index: 1;
+    width: 100%;
 }
 
 
