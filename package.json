@@ -1,0 +1,32 @@
+{
+  "name": "danju",
+  "version": "1.0.0",
+  "description": "Site Casamento Danilo e Juliana 2017",
+  "main": "http://danilomarra.com.br/danju",
+  "scripts": {
+    "test": "teste"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gadernal/danju.git"
+  },
+  "keywords": [
+    "casamento",
+    "danilo",
+    "juliana",
+    "2017"
+  ],
+  "author": "Danilo Marra Rabelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gadernal/danju/issues"
+  },
+  "homepage": "https://github.com/gadernal/danju#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bootlint": "^0.10.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
