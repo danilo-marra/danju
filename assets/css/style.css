@@ -1,2 +1,30 @@
-body{margin:0;padding:0}h1{font:13px Arial,sans-serif;color:#fff}
-/*# sourceMappingURL=style.css.map */
+/* painel */
+#modalRsvp .modal-header {
+    background-color: #ff6699;
+    color: #fff;
+    text-align: center;
+    opacity: 0.7;
+    filter: alpha(opacity=80);
+}
+
+/* botões */
+.btn {
+    color: #fff;
+    background-color: #ff6699;
+    border-color: #ccc;
+}
+
+.btn:hover {
+	background-color: #ffe6ee;
+	color: #ff6699;
+}
+
+.btn:active, .btn:focus {
+	background-color: #ffe6ee;
+	color: #ff6699;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+     background-color: #ff6699 !important;
+}
+
